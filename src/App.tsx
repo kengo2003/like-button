@@ -18,9 +18,9 @@ function LikeButton() {
     setCount(count + 1);
   };
   return (
-    <span className="likeButton" onClick={handleClick}>
+    <btn className="likeButton" onClick={handleClick}>
       {`❤️ ${count}`}
-    </span>
+    </btn>
   );
 }
 
