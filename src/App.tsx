@@ -19,7 +19,7 @@ function LikeButton() {
   };
   return (
     <span className="likeButton" onClick={handleClick}>
-      ❤️{count}
+      {`❤️ ${count}`}
     </span>
   );
 }
